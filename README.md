@@ -1,4 +1,4 @@
 - language python
 - license MIT
 - platform linux
-![Workflow](https://github.com/github/docs/actions/workflows/badge.svg)
+![Workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
