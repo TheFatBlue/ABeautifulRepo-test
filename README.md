@@ -1,4 +1,5 @@
 - language python
 - license MIT
 - platform linux
-![Workflow](https://github.com/OWNER/REPOSITORY/actions/workflows/WORKFLOW-FILE/badge.svg)
+
+![Workflow](https://github.com/TheFatBlue/ABeautifulRepo-test/actions/workflows/WORKFLOW-FILE/badge.svg)
