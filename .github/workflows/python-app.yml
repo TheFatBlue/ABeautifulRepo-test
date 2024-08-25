@@ -29,9 +29,6 @@ jobs:
         # pip install -r requirements.txt
     - name: Test with pytest
       run: |
-        pip install pytest pytest-cov
         pytest test_add.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
 
-    - name: Coveralls GitHub Action
-      uses: coverallsapp/github-action@v2.3.0
             
