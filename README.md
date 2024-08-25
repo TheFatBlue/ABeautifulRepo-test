@@ -1,4 +1,6 @@
 - language python
 - license MIT
 - platform linux
-![Workflow](https://github.com/github/docs/actions/workflows/python-app.yml/badge.svg)
+
+
+![Workflow](https://github.com/DFY-NCSU/ABeautifulRepo/actions/workflows/python-app.yml/badge.svg)
