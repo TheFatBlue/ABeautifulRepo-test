@@ -31,3 +31,12 @@ jobs:
       run: |
         pip install pytest pytest-cov
         pytest test_add.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+    - name: Run tests with coverage
+      run: |
+        pip install coverage codecov
+        coverage run -m pytest
+        coverage xml
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
